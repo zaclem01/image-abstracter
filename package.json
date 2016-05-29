@@ -1,0 +1,27 @@
+{
+  "name": "image-abstracter",
+  "version": "1.0.0",
+  "description": "Abstracts an image search to JSON",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaclem01/image-abstracter.git"
+  },
+  "author": "Zac Clemans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaclem01/image-abstracter/issues"
+  },
+  "homepage": "https://github.com/zaclem01/image-abstracter#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "googleapis": "^7.1.0",
+    "mongoose": "^4.4.19",
+    "pug": "^2.0.0-alpha8"
+  }
+}
